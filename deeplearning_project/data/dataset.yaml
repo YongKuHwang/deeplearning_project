@@ -1,0 +1,12 @@
+# Please insure that your custom_dataset are put in same parent dir with YOLOv6_DIR
+train: /home/addinedu/dev_ws/YOLOv6/mydata/images/train # train images
+val: /home/addinedu/dev_ws/YOLOv6/mydata/images/val # val images
+test: /home/addinedu/dev_ws/YOLOv6/mydata/images/test # test images (optional)
+
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+# Classes
+nc: 40  # number of classes
+names: ['up_on', 'up_off', 'down_on', 'down_off', 'b1_on', 'b1_off', 'b2_on', 'b2_off', '1_on', '1_off', '2_on', '2_off',
+        '3_on', '3_0ff', '4_on', '4_off', '5_on', '5_off', '6_on', '6_off', '7_on', '7_off', '8_on', '8_off', '9_on', '9_off', 
+        '10_on', '10_off', '11_on', '11_off', '12_on', '12_off', '13_on', '13_off', '14_on', '14_off', 'open_on', 'open_off', 'close_on', 'close_off']  # class names
